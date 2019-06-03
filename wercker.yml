@@ -1,15 +1,13 @@
 python2:
   box: python:2.7.16
-  python2:
-    steps:
-      - script:
-        name: show version
-        code: python --version
+  steps:
+    - script:
+      name: show version
+      code: python --version
 
 python3:
   box: python:3.6
-  python3:
-    steps:
-      - script:
-        name: show version
-        code: python --version
+  steps:
+    - script:
+      name: show version
+      code: python --version

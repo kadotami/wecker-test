@@ -1,6 +1,5 @@
 python2:
   box: python:2.7.16
-
   python2:
     steps:
       - script:
@@ -9,7 +8,6 @@ python2:
 
 python3:
   box: python:3.6
-
   python3:
     steps:
       - script:

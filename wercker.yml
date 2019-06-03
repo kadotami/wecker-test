@@ -24,3 +24,10 @@ create_csv:
     - script:
       name: create csv
       code: echo "apple, grape, orange" > created.csv
+
+parse_csv:
+  box: python:3.6
+  steps:
+    - script:
+    name: parse csv
+    code: python parse.py

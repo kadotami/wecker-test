@@ -17,3 +17,10 @@ python3:
     - script:
       name: print success
       code: python print.py
+
+create_csv:
+  box: alpine
+  steps:
+    - script:
+      name: create csv
+      code: echo "apple, grape, orange" > created.csv

@@ -29,5 +29,5 @@ parse_csv:
   box: python:3.6
   steps:
     - script:
-    name: parse csv
-    code: python parse.py
+      name: parse csv
+      code: python parse.py

@@ -1,7 +1,7 @@
 python2:
   box: python:2.7.16
 
-  build:
+  python2:
     steps:
       - script:
         name: show version
@@ -10,7 +10,7 @@ python2:
 python3:
   box: python:3.6
 
-  build:
+  python3:
     steps:
       - script:
         name: show version
